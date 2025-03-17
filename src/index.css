@@ -1,16 +1,35 @@
 
-
 .footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: white;
-  padding: 10px 0;
-  text-align: center;
-  font-size: 14px;
-  border-top: 1px solid #ccc;
+  padding-top: 30px;
 }
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.banner-image {
+  width: 90%;
+  max-width: 900px;
+  height: auto;
+  max-height: 250px; 
+  object-fit: contain;
+  padding-bottom: 30px;
+}
+.contenedor-tabla {
+  display: flex;
+  justify-content: flex-start;
+  width: 60%;
+  padding-left: 50px;
+}
+
+.robot-detail-container {
+  position: absolute;
+  right: 0;
+  margin-right: 50px; 
+}
+
+
 
 
 

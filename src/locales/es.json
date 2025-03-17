@@ -1,0 +1,12 @@
+{
+    "robot.table.id": "ID",
+  "robot.table.name": "Nombre",
+  "robot.table.model": "Modelo",
+  "robot.table.manufacturer": "Fabricante",
+  "robot.detail.year": "Año de fabricación",
+  "robot.detail.processing": "Capacidad de procesamiento",
+  "robot.detail.humor": "Humor",
+  "robot.detail.loading": "Cargando detalles del robot..."
+    
+}
+  

@@ -1,18 +1,14 @@
 import FormLogIn from "./Components/FormLogIn";
 import Footer from "./Components/Footer";
-import imagenParcial from "./images/imagenParcial.png";
-
-
+//import imagenParcial from "./images/imagenParcial.png";
+import Banner from "./Components/Banner";
 
 function LogIn(){
     return (
         <>
-        <div>
-        <h1 className="text-center mb-4">Adopta un Robot con Robot Lovers!</h1>
-        <img src={imagenParcial} alt="ImageRobot" className="header-image" />
-        </div>
-        <FormLogIn/>
-        <Footer/>
+        <Banner />
+        <FormLogIn />
+        <Footer />
         </>
     );
 }
